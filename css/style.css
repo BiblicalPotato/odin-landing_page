@@ -1,0 +1,71 @@
+body {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    font-family: roboto;
+}
+
+.header {
+    display: flex;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.content {
+    display : flex
+}
+
+.hero {
+    display: flex;
+}
+
+.hero .text {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.image {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+}
+
+.box {
+    display: flex;
+}
+
+.quote .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.call {
+    display: flex;
+}
+
+.call .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
